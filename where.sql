@@ -1,3 +1,32 @@
+CREATE TABLE MEAL (
+  NAME VARCHAR(255),
+  PRICE DOUBLE,
+  CALORIES INT
+);
+
+INSERT INTO MEAL(NAME, PRICE, CALORIES)
+VALUES ('Spaghetti Bolognese', 12.99, 600),
+('Grilled Chicken Sandwich', 8.99, 400),
+('Pesto Pasta', 10.99, 550),
+('Steak and Mash', 19.99, 800),
+('Sushi Platter', 15.99, 700);
+
+CREATE TABLE INGREDIENT (
+  NAME VARCHAR(255),
+  PRICE DOUBLE,
+  CONTAINS_LACTOSE BOOLEAN,
+  VEGETARIAN BOOLEAN,
+  VEGAN BOOLEAN,
+  GLUTEN_FREE BOOLEAN
+);
+
+INSERT INTO INGREDIENT (NAME, PRICE, CONTAINS_LACTOSE, VEGETARIAN, VEGAN, GLUTEN_FREE)
+VALUES ('Eggs', 2.50, false, true, false, true),
+('Bread', 1.90, false, true, true, false),
+('Beef Patty', 4.35, false, false, false, true),
+('Lettuce', 1.50, false, true, true, true),
+('Yoghurt', 2.00, true, true, false, true);
+
 SELECT *
 FROM MEAL
 WHERE PRICE < 15;
