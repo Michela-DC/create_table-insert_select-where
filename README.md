@@ -18,3 +18,14 @@ Good luck!
    Write a SELECT statement to select the NAME and the PRICE of the ingredients
    Write a SELECT statement to select all columns of ingredients, ordered by NAME
    Write a SELECT statement to select all columns of ingredients, ordered by "GLUTEN_FREE" with the "true" items on top
+
+3) Using a SELECT statement with a WHERE clause, retrieve all meals that have a price less than €15
+   Using a SELECT statement with a WHERE clause, retrieve all ingredients that are vegetarian.
+   Using a SELECT statement with a WHERE clause, retrieve all meals that have more than 500 calories.
+   Using a SELECT statement with a WHERE clause, retrieve all meals that have a price between €15 and €16.
+   Using a SELECT statement with a WHERE clause, retrieve all ingredients that are both lactose-free (note lactose FREE) and gluten-free.
+   Using a SELECT statement with a WHERE clause and logical operator(s), retrieve all meals that have a price less than €15 or more than 600 calories.
+   Using a SELECT statement with a WHERE clause, retrieve all ingredients that are vegan or gluten-free
+   Using a SELECT statement with a WHERE clause, retrieve all meals with the name 'Pesto Pasta'
+   Using a SELECT statement with a WHERE clause, retrieve all ingredients that are not lactose-free
+   Using a SELECT statement with a WHERE clause and a logical operator, retrieve all meals that have a price more than €20 and less than 800 calories.
