@@ -1,17 +1,9 @@
 INSERT INTO INGREDIENT (NAME, PRICE, CONTAINS_LACTOSE, VEGETARIAN, VEGAN, GLUTEN_FREE)
-VALUES ('Eggs', 2.50, false, true, false, true);
-
-INSERT INTO INGREDIENT (NAME, PRICE, CONTAINS_LACTOSE, VEGETARIAN, VEGAN, GLUTEN_FREE)
-VALUES ('Bread', 1.90, false, true, true, false);
-
-INSERT INTO INGREDIENT (NAME, PRICE, CONTAINS_LACTOSE, VEGETARIAN, VEGAN, GLUTEN_FREE)
-VALUES ('Beef Patty', 4.35, false, false, false, true);
-
-INSERT INTO INGREDIENT (NAME, PRICE, CONTAINS_LACTOSE, VEGETARIAN, VEGAN, GLUTEN_FREE)
-VALUES ('Lettuce', 1.50, false, true, true, true);
-
-INSERT INTO INGREDIENT (NAME, PRICE, CONTAINS_LACTOSE, VEGETARIAN, VEGAN, GLUTEN_FREE)
-VALUES ('Yoghurt', 2.00, true, true, false, true);
+VALUES ('Eggs', 2.50, false, true, false, true),
+('Bread', 1.90, false, true, true, false),
+('Beef Patty', 4.35, false, false, false, true),
+('Lettuce', 1.50, false, true, true, true);
+('Yoghurt', 2.00, true, true, false, true);
 
 SELECT NAME
 FROM INGREDIENT;
